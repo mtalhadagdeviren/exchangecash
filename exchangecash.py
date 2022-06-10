@@ -9,7 +9,7 @@ miktar=input('Bozdurulmak İstenilen Miktar: ')
 url = f"https://api.apilayer.com/fixer/convert?to={alınan_doviz}&from={bozulan_doviz}&amount={miktar}"
 payload = {}
 headers= {
-  "apikey": "7gzjHnSL9ZNC8C2Gpn6rtabLyvdzRDpc"
+  "apikey": "secret"
 }
 
 response = requests.request("GET", url, headers=headers, data = payload)
